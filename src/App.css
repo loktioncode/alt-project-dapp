@@ -1,0 +1,40 @@
+
+body{
+  background:#000000;
+  width: 100%;
+}
+
+.MuiButton-label {
+  color: rgb(255, 255, 255) !important;
+}
+
+div#root {
+  height: 200px !important;
+  margin-top: 0px;
+}
+header{
+  transform:translateY(0);
+  transition: 0.7s;;
+}
+header.sticky{
+  position:fixed;
+  z-index:99;
+  background:#000000;
+  width:100%;
+}
+header.hide{
+  transform:translateY(-80px);
+}
+
+.mintBtnContainer{
+  padding-top: 20px;
+  display:flex;
+  justify-content: space-between;
+  justify-content: center;
+  width: 300px;
+}
+
+
+.MintSection{
+  display:flex; flex-direction:row;
+}
